@@ -36,9 +36,18 @@ async function goLogout(){
                 <i class="pi pi-bars"></i>
             </button>
         </div>
+
+        <div class="flex-1 flex justify-center items-center h-full px-4">
+            <img 
+                src="../../public/c-sharp.png" 
+                class="max-h-[3rem] w-auto object-contain" 
+                alt="Logo"
+            />
+            <p class="flex items-center font-bold text-2xl h-full px-4">Powered by C# Backend</p>
+        </div>   
       
         <div class="layout-topbar-actions">
-             <p class="flex items-center font-bold text-2xl h-full px-4">Hello!! {{userName}}</p>
+            <p class="flex items-center font-bold text-2xl h-full px-4">Hello!! {{userName}}</p>
             <button
                 class="layout-topbar-menu-button layout-topbar-action"
                 v-styleclass="{ selector: '@next', enterFromClass: 'hidden', enterActiveClass: 'animate-scalein', leaveToClass: 'hidden', leaveActiveClass: 'animate-fadeout', hideOnOutsideClick: true }"
