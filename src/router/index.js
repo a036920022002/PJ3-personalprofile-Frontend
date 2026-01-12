@@ -11,6 +11,10 @@ const router = createRouter({
             children: [
                 {
                     path: '',
+                    redirect: '/homepage'
+                },
+                {
+                    path: '',
                     name: 'dashboard',
                     component: () => import('@/layout/AppSidebar.vue')
                 },
