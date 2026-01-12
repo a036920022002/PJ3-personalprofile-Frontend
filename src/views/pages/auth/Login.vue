@@ -37,9 +37,9 @@ const handleSignIn = async () => {
         },{requireAuth: false});
         
         const { token:token, user } = res.data;
-        console.log("接收到的資料",res)
-        console.log("res.data",res.data.token)
-        console.log("res.data",res.data.user.name)
+        //console.log("接收到的資料",res)
+        //console.log("res.data",res.data.token)
+        //console.log("res.data",res.data.user.name)
 
         login(token,user.name);
         await nextTick();
