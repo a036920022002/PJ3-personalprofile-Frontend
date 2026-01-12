@@ -9,10 +9,11 @@ const myintro = ref([]);
 const myintroEng = ref([]);
 const envHost = import.meta.env.VITE_API_URL;
 
-
 onMounted(async () => {
     const res = await api.get('/api/Aboutme',{ requireAuth: false });
     const resCer = await api.get('/api/Certificate',{ requireAuth: false });
+   
+    console.log("當前 API 網址:", envHost);
     console.log("Aboutme Data:", res.data);
     
     if (Array.isArray(res.data)) {
