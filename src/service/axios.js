@@ -2,8 +2,14 @@ import axios from 'axios';
 import router from '@/router'; // 導入 Vue Router 實例
 import {useAuth} from '@/service/auth'
 
+const apiUrl = import.meta.env.VITE_API_URL;
+
+if (!apiUrl) {
+  console.error("警告：VITE_API_URL 未定義！請檢查環境變數設定。");
+}
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: apiUrl || "/", // 如果沒設，會導向根目錄（即目前網域）
   timeout: 10000
 });
 
