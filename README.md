@@ -1,5 +1,5 @@
 # Personal Hub Pro - Frontend (Vue.js)
-###### PJ2-personalprofile-frontend
+###### PJ3-personalprofile-frontend (C #)
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
