@@ -20,7 +20,7 @@
 
 ## 🔗 相關連結
 * **Live Demo**： [點此查看成品](https://myprofilebycsharp.zeabur.app/homepage)
-* **[BackEnd Link]：(https://github.com/a036920022002/PJ3-BackEnd.git)**
+* **[BackEnd Link](https://github.com/a036920022002/PJ3-BackEnd.git)**
 
 ## 🌟How Start
 ```npm init```  
